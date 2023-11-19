@@ -1,0 +1,53 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px hsl(212, 45%, 89%);
+    top: 20%;
+    left:37.5%;
+    height: 48%;
+    width: 14%;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: hsl(0, 0%, 100%);
+}
+.image{
+    position: relative;
+    border-radius: 20px;
+    width:100%;
+    
+}
+body{
+    background-color: hsl(218, 62%, 90%)
+}
+.Font{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Outfit', sans-serif;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%)
+}
+.text{
+    font-size: 17px;
+    font-weight: 100;
+    color: hsl(212, 45%, 89%);
+}
+@media(max-width: 375px){
+    .card{
+        top: 15%;
+        left:10%;
+        right: 10%;
+        width: 70%;
+        height: 70%;
+    }
+    .Font{
+        font-size: 15px;
+        text-align: center;
+    }
+}
